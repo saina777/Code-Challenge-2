@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#guest-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.guest-item {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.guest-item:last-child {
+    border-bottom: none;
+}
+
+.guest-item .name {
+    font-weight: bold;
+}
+
+.guest-item .rsvp {
+    font-size: 14px;
+    color: #666;
+}
+
+.attending {
+    color: green;
+}
+
+.not-attending {
+    color: red;
+}
+
+.delete-btn {
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.rsvp-btn {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
